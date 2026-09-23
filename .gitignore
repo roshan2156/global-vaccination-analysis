@@ -1,0 +1,15 @@
+@"
+# Raw source data
+raw data/
+
+# Python/Jupyter temporary files
+.ipynb_checkpoints/
+
+# Power BI temporary/backup files
+*.pbit
+*.bak
+
+# Windows files
+Thumbs.db
+desktop.ini
+"@ | Out-File -Encoding utf8 .gitignore
