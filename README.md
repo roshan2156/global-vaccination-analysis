@@ -4,11 +4,6 @@
 
 An end-to-end data analytics project that turns raw global vaccination datasets into cleaned data, a structured MySQL database, and an interactive Power BI dashboard.
 
-![Python](https://img.shields.io/badge/Python-Pandas%20%7C%20NumPy-3776AB?logo=python&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?logo=mysql&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black)
-![Domain](https://img.shields.io/badge/Domain-Public%20Health-2E8B57)
-
 ---
 
 ## 📌 Project Overview
@@ -269,9 +264,7 @@ The notebook explores vaccination coverage, dose counts, disease incidence, repo
 
 The cleaned data powers an interactive single-page Power BI dashboard titled **🌍 Global Vaccination Analysis**, combining KPI cards, trend charts, disease analysis, a geographic map, vaccine introduction analysis, and vaccination schedule analysis.
 
-<!-- Add a dashboard screenshot here, for example:
-![Dashboard Preview](images/dashboard.png)
--->
+<img width="1322" height="742" alt="image" src="https://github.com/user-attachments/assets/34d535e1-2c38-48ba-ae58-11c304a2bc04" />
 
 ### KPI Cards
 
@@ -359,39 +352,6 @@ DISTINCT(
 
 For example, selecting a disease in the bar chart filters every connected visual that contains disease information, and selecting a country on the map filters the country-level visuals.
 
----
-
-## 🔍 Key Analytical Questions
-
-The project focuses on questions that the available datasets can support.
-
-**Foundational questions**
-
-1. How do vaccination rates relate to changes in disease incidence?
-2. Which regions have high disease incidence despite high vaccination coverage?
-3. How have vaccination rounds and schedules changed over time (as a proxy for booster uptake, where records are available)?
-
-**Deeper questions**
-
-4. Is vaccine introduction associated with a decrease in disease cases?
-5. What is the trend in disease cases before and after vaccine introduction or campaign periods?
-6. Which diseases have shown the most significant reduction in cases?
-7. Are there disparities in vaccine introduction timelines across WHO regions?
-8. How does vaccine coverage relate to disease reduction for specific antigens?
-9. Are certain diseases more prevalent in specific geographic areas?
-
-### Scenario-Based Analysis
-
-| Scenario | Approach |
-|---|---|
-| Government planning | Identify countries or regions with relatively low vaccination coverage |
-| Vaccine campaign evaluation | Compare disease trends around vaccine introduction or campaign reference periods |
-| Vaccine demand analysis | Use historical vaccination and schedule data as a starting point for understanding requirements |
-| Disease outbreak analysis | Compare incidence and coverage geographically to flag areas for further investigation |
-| Polio analysis | Compare polio incidence with available coverage information |
-| Measles coverage monitoring | Track measles coverage against a 95% reference target where data is available |
-
-> **Note:** Historical data should not be treated as a definitive future demand forecast without additional forecasting assumptions and population data.
 
 ---
 
@@ -516,7 +476,7 @@ Open `vaccination project workbook.pbix` in Power BI Desktop.
 
 ## 👨‍💻 Author
 
-**Jaydeep Tandel**
+**Roshan Patil**
 
 - **Project:** Global Vaccination Analysis
 - **Domain:** Public Health and Epidemiology
