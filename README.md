@@ -251,6 +251,8 @@ CREATE TABLE vaccine_schedule (
 4. Validate imported records
 5. Run analytical SQL queries
 6. Connect the structured data to Power BI
+<img width="1681" height="625" alt="image" src="https://github.com/user-attachments/assets/fab35921-7856-4bb6-979c-ae38eedec562" />
+<img width="1897" height="882" alt="image" src="https://github.com/user-attachments/assets/0061735f-1382-4c6e-8679-41d4d18e5744" />
 
 ---
 
@@ -265,8 +267,6 @@ The notebook explores vaccination coverage, dose counts, disease incidence, repo
 The cleaned data powers an interactive single-page Power BI dashboard titled **🌍 Global Vaccination Analysis**, combining KPI cards, trend charts, disease analysis, a geographic map, vaccine introduction analysis, and vaccination schedule analysis.
 
 <img width="1322" height="742" alt="image" src="https://github.com/user-attachments/assets/34d535e1-2c38-48ba-ae58-11c304a2bc04" />
-<img width="1897" height="982" alt="image" src="https://github.com/user-attachments/assets/c298e977-4e23-4012-b973-280d8f1508ab" />
-
 
 ### KPI Cards
 
@@ -308,6 +308,7 @@ SWITCH(
 ### Data Model
 
 Dimension tables were created to improve filtering across the report.
+<img width="1897" height="982" alt="image" src="https://github.com/user-attachments/assets/c298e977-4e23-4012-b973-280d8f1508ab" />
 
 <details>
 <summary><b>View DAX for DimCountry, DimDisease and DimYear</b></summary>
