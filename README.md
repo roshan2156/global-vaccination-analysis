@@ -265,6 +265,8 @@ The notebook explores vaccination coverage, dose counts, disease incidence, repo
 The cleaned data powers an interactive single-page Power BI dashboard titled **🌍 Global Vaccination Analysis**, combining KPI cards, trend charts, disease analysis, a geographic map, vaccine introduction analysis, and vaccination schedule analysis.
 
 <img width="1322" height="742" alt="image" src="https://github.com/user-attachments/assets/34d535e1-2c38-48ba-ae58-11c304a2bc04" />
+<img width="1897" height="982" alt="image" src="https://github.com/user-attachments/assets/c298e977-4e23-4012-b973-280d8f1508ab" />
+
 
 ### KPI Cards
 
